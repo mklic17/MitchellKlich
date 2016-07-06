@@ -3,3 +3,11 @@
   margin-right: auto;
   width: 45%;
 }
+
+.alignProjects {
+  width: 100%;
+  float: left;
+}
+.specificProject {
+  width: 25%;
+}
