@@ -14,8 +14,25 @@ var Mitch = {
     $('.cardProject').on('click', this.cardProject);
   },
 
+  createProjectObject() {
+    return projectSummary = {
+      title: '',
+      pictureLocation: '',
+      description: '',
+      futureExpansions: '',
+    }
+  },
+
   mutantProject: function(ev) {
+
     console.log('made it to mutantProjects()');
+    projectSummary = Mitch.createProjectObject();
+    projectSummary.title = 'Mutant Project';
+    // projectSummary.pictureLocations = '';
+    projectSummary.description = "Mutant Office Hour Project";
+    projectSummary.futureExpansions = "Future things to do ";
+    console.log(projectSummary);
+
   },
 
   responderProject: function(ev) {
@@ -33,6 +50,13 @@ var Mitch = {
   enterTransition: function(ev) {
     console.log("here");
   },
+
+ //  $(".timeline-item").hover(function () {
+ //     $(".timeline-item").removeClass("active");
+ //     $(this).toggleClass("active");
+ //     $(this).prev(".timeline-item").toggleClass("close");
+ //     $(this).next(".timeline-item").toggleClass("close");
+ // });
 
 
 }
