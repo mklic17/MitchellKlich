@@ -6,24 +6,37 @@
   margin-right: auto;
   width: 45%;
 }
-.alignProjects li{
-  list-style: none;
-  border: 1px solid black;
-  float: left;
-  width: 200px;
-  height:
-}
-/*.specificProject {
-  float: left;
-  width: 200px;
-}*/
-.info > h6 {
-  font-weight: bold;
-}
 ul {
   margin: 0;
+  padding: 0;
   list-style-type: none;
+}
+.alignProjects li{
+  border-radius: 10%;
+  float: left;
+  width: 250px;
+  height: 200px;
+  padding: 20px;
+}
+.transition:hover, .transition:focus, .transition:active {
+  animation-name: hvr-back-pulse;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  background-color: #2098d1;
+  color: white;
+}
+.clickableLink {
+  text-decoration: none;
+  color: black;
+}
+.clickableLink:hover{
+  color:white;
+}
 
+.info > h6 {
+  font-weight: bold;
 }
 .containProjects {
   width: 100%;
