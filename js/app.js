@@ -1,7 +1,6 @@
 $(document).foundation()
 
-
- $(".timeline-item").hover(function () {
+$(".timeline-item").hover(function () {
     $(".timeline-item").removeClass("active");
     $(this).toggleClass("active");
     $(this).prev(".timeline-item").toggleClass("close");

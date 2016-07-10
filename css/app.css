@@ -1,15 +1,31 @@
-#check {
+.check {
   background-color: red;
 }
+#topbar{
+  width:100%;
+  display: block;
+}
+
 .center {
   margin-left: auto;
   margin-right: auto;
   width: 45%;
 }
+.menuBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+menuItem {
+  float: right;
+}
 
 .myPhoto {
     float: left;
-    padding-right: 25px;
+    padding: 0px 25px 20px 0px;
     border-radius: 50%;
 }
 h4 {
@@ -44,7 +60,6 @@ ul {
 .quoteAuthor{
   float: right;
 }
-
 .containProjects {
   width: 100%;
   margin-left: auto;
@@ -74,11 +89,9 @@ ul {
 .clickableLink:hover{
   color:white;
 }
-
 .info > h6 {
   font-weight: bold;
 }
-
 div {
     font-family: Helvetica, Arial, sans-serif;
     box-sizing: border-box;
