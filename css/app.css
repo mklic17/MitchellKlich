@@ -10,6 +10,18 @@
   width:100%;
   display: block;
 }
+.intro1 {
+  height: 93vh;
+  background-color: #f6f6f6;
+}
+.intro2 {
+  height: 93vh;
+  background-color: white;
+}
+.intro3 {
+  height: 30vh;
+  background-color: white;
+}
 
 .center {
   margin-left: auto;
@@ -95,6 +107,10 @@ ul {
 }
 .meter.green {
   background: #2ecc71;
+}
+li a {
+  text-decoration: none;
+  color: white;
 }
 
 .percent {
