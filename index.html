@@ -10,6 +10,8 @@
   </head>
   <body>
 
+
+
     <div data-sticky-container>
       <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
         <div class="title-bar-left">
@@ -29,7 +31,7 @@
   </div>
 
     <!-- about -->
-    <div class = "row">
+    <div class = "row navbarSpace">
       <div class="small-12 columns">
         <div class="center">
           <img src="images/Mitch.jpg" height="300" width="300" class="myPhoto"/>
@@ -101,31 +103,54 @@
     <!-- skills -->
     <div class="row">
       <h4 class="">Skills</h4>
-      <div class="small-3 large-offset-1 columns">
+      <div class="small-3 large-offset-2 columns">
         <h6>Languages</h6>
         <dl>
           <dt>Mobile Development</dt>
-          <dd>Swift 2</dd>
+          <dd>Swift 2
+            <div class="progress">
+              <span class="meter green" style="width:50%">
+                <p class="percent">50%</p>
+              </span>
+            </div>
+          </dd>
           <dt>Web Development</dt>
-          <dd>JavaScript (Ajax, Jquery, Angular)</dd>
+          <dd>JavaScript (Ajax, Jquery, Angular)
+            <div class="progress">
+              <span class="meter green" style="width:75%">
+                <p class="percent">75%</p>
+              </span>
+            </div>
+          </dd>
           <dd>HTML</dd>
           <dd>CSS</dd>
           <dt>Desktop Development</dt>
-          <dd>Java</dd>
-          <dd>C++</dd>
+          <dd>Java
+            <div class="progress">
+              <span class="meter green" style="width:75%">
+                <p class="percent">75%</p>
+              </span>
+            </div>
+          </dd>
+          <dd>C++
+            <div class="progress">
+              <span class="meter green" style="width:50%">
+                <p class="percent">50%</p>
+              </span>
+            </div>
+          </dd>
         </dl>
       </div>
-
       <div class="small-3 columns">
-        <h6>Other Skills</h6>
-        <dl>
-            <dt>Agile and Scrum</dt>
-            <dd>Completed a 15 hour Agile and Scrum training that covered how to use Agile and Scrum in the workplace to increase productivity.</dd>
-            <dt>Github</dt>
-            <dd>Used Github throughout the Xtern-Bootcamp program, also utilizied Github for larger school projects (alone and with group).</dd>
-        </dl>
-      </div>
+      <h6>Other Skills</h6>
+      <dl>
+          <dt>Agile and Scrum</dt>
+          <dd>Completed a 15 hour Agile and Scrum training that covered how to use Agile and Scrum in the workplace to increase productivity.</dd>
+          <dt>Github</dt>
+          <dd>Used Github throughout the Xtern-Bootcamp program, also utilizied Github for larger school projects (alone and with group).</dd>
+      </dl>
     </div>
+  </div>
 
     <hr>
     <!--use a timeline to go through experience, education-->
@@ -234,5 +259,5 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.min.js"></script>
     <script src="js/app.js"></script>
-  </body>
+    <script src="js/navbar.js"></script>  </body>
 </html>
