@@ -6,6 +6,12 @@
   margin-right: auto;
   width: 45%;
 }
+
+.myPhoto {
+    float: left;
+    padding-right: 25px;
+    border-radius: 50%;
+}
 h4 {
   text-align: center;
 }
