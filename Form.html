@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Primary Responder </title>
+		<style>
+			.Title {
+				text-align: center;
+				color: red;
+			}
+			.form-wrapper {
+				position: relative;
+				width: 400px;
+				height: 350px;
+				border: 1px solid gray;
+				background: lightgray;
+				border-radius: 5px;
+				box-shadow: 5px 5px 5px rgba(0,0,0,.4);
+				margin: auto;
+				text-align: center;
+			}
+			.form-wrapper h3 {
+				font-size: 26px;
+			}
+			
+			input[type=text],textarea {
+				width: 250px;
+				border-radius: 2px
+				font-size: 17px;
+				border: 1px solid gray;
+				margin: 5px 10px 5px 10px;
+				
+			}
+			input[type=submit], input[type=reset] {
+				border:1px solid black;
+				width: 120px;
+				margin: 10px;
+				background: lightgrey;
+				border-radius: 4px;
+				height: 40px;
+				font-size: 14px;
+				
+			}
+			input[type=submit]:hover, input[type=reset]:hover {
+				background: grey;
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<div class="form-wrapper">
+			<h3 class ="Title">Primary Responder</h3>
+			<form method ="post" action="form_process.php">
+				
+				<input type="text" name="subject" placeholder = "Subject" /><br />
+				<textarea name="message" placeholder ="Suggestion" rows="6" ></textarea><br />
+				<input type= "submit" name = "submit" value = "Send Message" />
+				<input type = "reset" name = "reset" value = "Clear Form" />
+							
+			</form>
+		</div>
+	</body>
+</html>
