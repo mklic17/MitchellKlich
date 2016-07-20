@@ -4,7 +4,7 @@ Mitchell Klich is a live webpage that serves as a bios about myself.
 
 ## Technical Overview
 In development: 
-* [JavaScript](https://developer.mozilla.org
+* [JavaScript](https://developer.mozilla.org)
 
 To get started, clone the repository and run `open index.html`.
 
