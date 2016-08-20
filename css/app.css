@@ -27,7 +27,6 @@
   text-align: left;
 }
 .headingText {
-  padding-top: 40px;
   height: auto;
   width: 55%;
   font-size: 1.25em;
@@ -92,7 +91,7 @@ ul {
   float: right;
 }
 .containClass {
-  width: 800px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   font-size: 1.25em;
@@ -132,7 +131,7 @@ ul {
   width: 330px;
   height: 230px;
   padding: 20px;
-  font-size: 1.25em;
+  font-size: 1.1em;
 }
 .progress {
   margin: 0 auto 2rem auto;
@@ -189,6 +188,9 @@ div {
     font-family: Helvetica, Arial, sans-serif;
     box-sizing: border-box;
 }
+.experiences {
+  padding-bottom: 20px;
+}
 .timeline {
     width: 600px;
 }
@@ -219,8 +221,17 @@ div {
     width: 100%;
     width: 78%;
     margin-left: -2px;
-    padding: 0 0 40px 35px;
+    padding: 0 0 20px 35px;
     border-left: 4px solid #aaa;
+    font-size: 14px;
+    line-height: 20px;
+}
+.timeline .timeline-item .infoLast {
+    width: 100%;
+    width: 78%;
+    margin-left: -2px;
+    padding: 0 0 20px 35px;
+    /*border-left: 4px solid #aaa;*/
     font-size: 14px;
     line-height: 20px;
 }
