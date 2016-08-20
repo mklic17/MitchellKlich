@@ -118,6 +118,7 @@ ul {
   float: right;
   color: white;
   font-size:2em;
+  padding-right: 40px;
 }
 .containProjects {
   width: 100%;
