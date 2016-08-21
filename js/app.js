@@ -18,6 +18,7 @@ var Mitch = {
     $('.responderProject').on('click', this.responderProject);
     $('.pokemonProject').on('click', this.pokemonProject);
     $('.cardProject').on('click', this.cardProject);
+    $('.contactMe').on('click', this.contactMe);
   },
 
   createProjectObject() {
@@ -27,6 +28,10 @@ var Mitch = {
       description: '',
       futureExpansions: '',
     }
+  },
+  contactMe: function(ev) {
+    ev.preventDefaults;
+    window.location.href = 'mailto:MithcellKlich_2017@DePauw.edu?subject=ContactMe&=Hello';
   },
 
   mutantProject: function(ev) {
