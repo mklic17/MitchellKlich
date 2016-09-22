@@ -31,7 +31,7 @@ var Mitch = {
   },
   contactMe: function(ev) {
     ev.preventDefaults;
-    window.location.href = 'mailto:MithcellKlich_2017@DePauw.edu?subject=ContactMe&=Hello';
+    window.location.href = 'mailto:MitchellKlich_2017@DePauw.edu?subject=ContactMe&=Hello';
   },
 
   mutantProject: function(ev) {
