@@ -5,9 +5,8 @@ body {
   background-color: red;
 }
 .backgroundImage {
-  width: 1200px;
+  width: 100%;
   height: 94vh;
-  /*position: absolute;*/
 }
 .navbarSpace {
   padding-top: 15px;
