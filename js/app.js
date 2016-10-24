@@ -6,6 +6,22 @@ $(".timeline-item").hover(function () {
     $(this).prev(".timeline-item").toggleClass("close");
     $(this).next(".timeline-item").toggleClass("close");
 });
+
+$(window).scroll(function () {
+    var scrollh = $(this).scrollTop();
+    if (scrollh == 0) {
+        $(".navbar").css({
+            'height':'75px',
+            'font-size': '1.75em',
+        });
+    } else {
+        $(".navbar").css({
+            'height':'50px',
+            'font-size': '1.0em',
+        });
+    }
+});
+
 var Mitch = {
 
   init: function() {
@@ -61,8 +77,6 @@ var Mitch = {
   enterTransition: function(ev) {
     console.log("here");
   },
-
-
 
 
 }
