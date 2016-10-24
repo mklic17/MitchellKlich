@@ -13,6 +13,8 @@ $(window).scroll(function () {
         $(".navbar").css({
             'height':'75px',
             'font-size': '1.75em',
+            'color': '#87d37c',
+            'transition': 'all .1s ease-in-out'
         });
     } else {
         $(".navbar").css({
@@ -21,6 +23,7 @@ $(window).scroll(function () {
         });
     }
 });
+
 
 var Mitch = {
 
