@@ -2,6 +2,9 @@ body {
   min-width: 1200px;
 
 }
+/*a:hover {
+  color: #FFCF01 ;
+}*/
 .check {
   background-color: red;
 }
@@ -83,8 +86,17 @@ ul {
   padding: 0;
   list-style-type: none;
 }
+.education {
+  width: 100%;
+}
+.education a{
+  color: black;
+}
+.education h5 {
+  padding-top: 30px;
+}
 .containEducation {
-  width: 500px;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -96,14 +108,18 @@ ul {
   padding-top: 30px;
   float: right;
 }
-.containClass {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 1.25em;
-  border: .5px solid black;
+
+.containClass table {
+  background-color: inherit;
 }
-.containClass a {
+.containClass table tr td{
+  text-align: center;
+  background-color: #f6f6f6;
+}
+/*.containClass table tr td a:hover {
+  color: #FFCF01 ;
+}*/
+/*.containClass a {
   color: black;
   text-decoration: none;
 }
@@ -114,7 +130,7 @@ ul {
 .containClass a li:hover{
   background-color: #2098d1;
   color: white;
-}
+}*/
 .quote {
   color: white;
   padding-top: 125px;
@@ -198,6 +214,7 @@ div {
 .experiences {
   padding-bottom: 20px;
 }
+
 .timeline {
     width: 600px;
 }
@@ -285,28 +302,18 @@ div {
     background-color: #9DB668;
     box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
-/*.studyAbroad {
-  text-align: center;
-}
 .trips {
   width: 65%;
   margin-left: auto;
   margin-right: auto;
-  background-color: orange;
+}
+.trips div a {
+  width: 50%;
+  color: black;
 }
 .tripsLeft {
-  width: 50%;
   float: left;
 }
 .tripsRight {
-  width: 50%;
   float: right;
 }
-.studyAbroad > a {
-  color: black;
-  text-decoration: none;
-}
-.studyAbroad > h6 {
-  padding-top: 20px;
-  font-size: 1.5em;
-}*/
