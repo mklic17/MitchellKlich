@@ -1,6 +1,10 @@
 body {
   min-width: 1200px;
-
+}
+.fix {
+  text-align: center;
+  color: grey;
+  font-size: 11px;
 }
 /*a:hover {
   color: #FFCF01 ;
