@@ -1,5 +1,6 @@
 body {
   min-width: 1200px;
+  background-color: #f6f6f6;
 }
 .fix {
   text-align: center;
@@ -62,7 +63,7 @@ body {
 }
 .intro1 {
   height: 93vh;
-  background-color: #f6f6f6;
+  /*background-color: #f6f6f6;*/
 }
 .intro2 {
   height: 93vh;
