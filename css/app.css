@@ -1,6 +1,6 @@
 body {
   min-width: 1200px;
-  background-color: #f6f6f6;
+
 }
 .fix {
   text-align: center;
@@ -63,7 +63,7 @@ body {
 }
 .intro1 {
   height: 93vh;
-  /*background-color: #f6f6f6;*/
+  background-color: #f6f6f6;
 }
 .intro2 {
   height: 93vh;
@@ -112,6 +112,9 @@ ul {
 .educationMinor {
   padding-top: 30px;
   float: right;
+}
+table {
+  /*background-color: #f6f6f6;*/
 }
 
 .containClass table {
@@ -217,9 +220,9 @@ div {
     box-sizing: border-box;
 }
 .experiences {
-  padding-bottom: 20px;
+  padding: 0px 110px 10px 0px;
+  text-align: center;
 }
-
 .timeline {
     width: 600px;
 }
@@ -321,4 +324,17 @@ div {
 }
 .tripsRight {
   float: right;
+}
+
+.leftEntry {
+  visibility: hidden;
+}
+.rightEntry {
+  visibility: hidden;
+}
+.hide {
+  visibility: hidden;
+}
+.classEntrance {
+  visibility: visible;
 }
