@@ -1,11 +1,11 @@
 $(document).foundation()
 
-$(window).ready(function() {
-    var x = $("#contactLinks");
-    setTimeout(function() {
-        x.addClass("animated rollin");
-    }, 350);
-});
+// $(window).ready(function() {
+//     var x = $("#contactLinks");
+//     setTimeout(function() {
+//         x.addClass("animated rollin");
+//     }, 350);
+// });
 
 $('.contactMe').on('click', function(ev){
   ev.preventDefaults;
