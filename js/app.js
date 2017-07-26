@@ -9,7 +9,7 @@ $(document).foundation()
 
 $('.contactMe').on('click', function(ev){
   ev.preventDefaults;
-  window.location.href = 'mailto:mitchellklich_2017@DePauw.edu?subject=Contact&=Hello,';
+  window.location.href = 'mailto:klich_mitchell@yahoo.com?subject=Contact&=Hello,';
 });
 
 $(window).scroll(function () {
